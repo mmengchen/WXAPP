@@ -1,6 +1,4 @@
 var express = require('express');
-var router = express.Router();
-var express = require('express');
 var crypto = require('crypto');
 var router = express.Router();
 var token = "xiaoguang0904"; //此处需要你自己修改！
@@ -25,5 +23,4 @@ router.get('/', function(req, res, next) {
     res.send("error");
   }
 });
-module.exports = router;
 module.exports = router;
